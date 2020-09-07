@@ -130,16 +130,22 @@ LoadedMSG="Ps4 Debug Loaded ✔";
 var script = document.createElement('script');script.src = "ps4debug.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
+function load_ps4debug(){
+msgs.innerHTML="<h1 style='font-size:40px;text-align:center;'> Loading Ps4 Debug ...</h1>";
+LoadedMSG="Ps4 Debug Loaded ✔";
+var script = document.createElement('script');script.src = "ps4debug.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+}
 function load_todex(){
 msgs.innerHTML="<h1 style='font-size:40px;text-align:center;'> Loading TODEX ...</h1>";
 LoadedMSG="Ps4 TODEX Loaded ✔";
-var script = document.createElement('script');script.src = "ps4debug.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "todex.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 function load_gta(){
 msgs.innerHTML="<h1 style='font-size:40px;text-align:center;'> Loading GTA 1.00  ...</h1>";
 LoadedMSG="Ps4 GTA 1.00 Loaded ✔";
-var script = document.createElement('script');script.src = "ps4debug.js";document.getElementsByTagName('head')[0].appendChild(script);
+var script = document.createElement('script');script.src = "gta.js";document.getElementsByTagName('head')[0].appendChild(script);
 var script = document.createElement('script');script.src = "loader.js";document.getElementsByTagName('head')[0].appendChild(script);
 }
 </script>
