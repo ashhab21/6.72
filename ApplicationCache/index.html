@@ -19,10 +19,10 @@ img:hover {
 <div style="text-align:center"><h1 id=msgs style='font-size:40px;text-align:center;'></h1><div style='font-size:50px;text-align:center;'>THE WOLF GAMES 6.72 PAYLOAD
 <script>
 function load_dbcache(){
-msgs.innerHTML="<h1 style='font-size:40px;text-align:center;'> Loading ApplicationCache  ...</h1>";
-LoadedMSG="ApplicationCache Loaded ✔";
-var script = document.createElement('script');script.src = "dbcache.js";document.getElementsByTagName('head')[0].appendChild(script);
-var script = document.createElement('script');script.src = "loader.js";document.getElementsByTagName('head')[0].appendChild(script);
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading Exploit And HEN ...</h1>";
+LoadedMSG="Exploit And HEN Loaded ✔ - Press Circle To Exit";
+function getScript(source,callback){var gs=document.createElement('script');gs.src=source;gs.onload=callback;gs.async=false;document.body.appendChild(gs);}
+function loadScript(){getScript("dbcache.js",function(){setTimeout(jailbreak,500);});}loadScript();
 }
 </script>
 </body>
